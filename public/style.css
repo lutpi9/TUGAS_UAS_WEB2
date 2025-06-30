@@ -10,12 +10,12 @@
 }
 
 :root {
-  --bg-color: #1e0034;
-  --text-color: #5a5a5a;
-  --nav-bg: #8561ad;
-  --nav-hover: #865eb8;
-  --footer-bg: #1d1d1d;
-  --card-bg: #e5e4e5;
+  --bg-color: #fffaf0;           /* Cream background */
+  --text-color: #3e3e3e;         /* Dark gray for text */
+  --nav-bg: #f5deb3;             /* Wheat (cream-like) */
+  --nav-hover: #f0d9a0;          /* Lighter cream for hover */
+  --footer-bg: #eeddcc;          /* Soft cream-brown */
+  --card-bg: #fff8dc;            /* Cornsilk (light cream) */
   --shadow-light: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,7 +33,7 @@ body {
   max-width: 980px;
   margin: 0 auto;
   padding: 20px;
-  box-shadow: 0 0 1em #eee1e9;
+  box-shadow: 0 0 1em #f0e0d0;
 }
 
 /* Header */
@@ -42,7 +42,7 @@ header {
 }
 
 header h1 {
-  color: #bdb37c;
+  color: #a67c52;
 }
 
 /* Navigation */
@@ -54,13 +54,14 @@ nav {
 }
 
 nav a {
-  color: #ffec6e;
+  color: #5a3e1b;
   text-decoration: none;
   padding: 12px 18px;
   font-weight: bold;
 }
 
-nav a.active, nav a:hover {
+nav a.active,
+nav a:hover {
   background: var(--nav-hover);
 }
 
@@ -118,7 +119,7 @@ nav a.active, nav a:hover {
 
 .widget-box ul li a {
   text-decoration: none;
-  color: var(--nav-bg);
+  color: #a67c52;
   font-weight: 500;
 }
 
@@ -127,7 +128,7 @@ footer {
   text-align: center;
   padding: 15px 0;
   background: var(--footer-bg);
-  color: #ba92d7;
+  color: #5a3e1b;
 }
 
 /* Table */
@@ -137,31 +138,34 @@ table {
   font-size: 14px;
 }
 
-table th, table td {
-  border: 1px solid #180032;
+table th,
+table td {
+  border: 1px solid #c8b08c;
   padding: 12px 15px;
   text-align: left;
 }
 
 table th {
   background: var(--nav-bg);
-  color: rgb(255, 255, 255);
+  color: #3e2a1a;
 }
 
 table tr:nth-child(even) {
-  background: #f2f2f2;
+  background: #fef5e7;
 }
 
 /* Buttons */
-.btn-read-more, .btn-back {
+.btn-read-more,
+.btn-back {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #20013d;
-  color: rgb(210, 201, 130);
+  background-color: #d2b48c;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
 
-.btn-read-more:hover, .btn-back:hover {
-  background-color: #2b84ea;
+.btn-read-more:hover,
+.btn-back:hover {
+  background-color: #deb887;
 }
