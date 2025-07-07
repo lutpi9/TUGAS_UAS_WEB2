@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 ## 👤 Profil Mahasiswa
 
 | Atribut         | Keterangan            |
 | --------------- | --------------------- |
-| **Nama**        | Oktavia Rizkha Kurniawati         |
-| **NIM**         | 312310509             |
+| **Nama**        | Lutpiah Ainus Shiddik         |
+| **NIM**         | 312310474             |
 | **Kelas**       | TI.23.A.5             |
 | **Mata Kuliah** | Pemrograman Website 2 |
 
