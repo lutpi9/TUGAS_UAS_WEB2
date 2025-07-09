@@ -426,14 +426,21 @@ Menambahkan dropdown kategori dengan nilai yang sudah terpilih sesuai data artik
 3. Mengedit Artikel dan Ubah Kategori
    
 - Tampilan Form Edit Artikel:
+  
   ![image](https://github.com/user-attachments/assets/5038e711-feac-4991-9f92-08d73bd488a5)
 
 - Tampilan Setelah Edit Artikel:
+  
   ![image](https://github.com/user-attachments/assets/27f31927-9f99-4f16-b57f-03b99226361c)
 
 4. Menghapus Artikel
 - Tampilan Konfirmasi/Hapus Artikel:
+  
   ![image](https://github.com/user-attachments/assets/4e3b8fb8-a494-4121-b84a-81de48059ef1)
 
 - Tampilan Setelah Artikel Dihapus:
+  
   ![image](https://github.com/user-attachments/assets/5bf04641-6ba4-437f-9865-0f54db390dc1)
+
+## Kesimpulan:
+Pada Praktikum 7 ini, telah berhasil diterapkan relasi One-to-Many antara tabel artikel dan kategori dalam aplikasi yang dibangun menggunakan CodeIgniter 4. Seluruh tahapan dikerjakan secara sistematis, mulai dari pembuatan tabel di database, pengembangan model, controller, hingga tampilan (view).
